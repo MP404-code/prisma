@@ -1,0 +1,9 @@
+npm install prisma @prisma/client
+npx prisma init --datasource-provider sqlite
+
+npx prisma db push
+
+npm install prisma@5.10.2 @prisma/client@5.10.2
+rm prisma.config.ts
+
+npx prisma studio
